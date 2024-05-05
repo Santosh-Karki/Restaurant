@@ -5,9 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server:{
-    // proxy: {
-    //   '/reservation': 'https://restaurant-8p5p.onrender.com',
-    //   '/user': 'https://restaurant-8p5p.onrender.com'
-    // }
+    proxy: {
+      '/reservation': 'https://restaurant-8p5p.onrender.com',
+      '/user': 'https://restaurant-8p5p.onrender.com'
+    }
   }
 })
