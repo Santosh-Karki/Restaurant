@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server:{
     proxy: {
-      '/reservation': 'http://localhost:4000',
-      '/user': 'http://localhost:4000'
+      '/reservation': 'https://restaurant-zsuu.onrender.com',
+      '/user': 'https://restaurant-zsuu.onrender.com`'
     }
   }
 })
