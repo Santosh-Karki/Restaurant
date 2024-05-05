@@ -18,7 +18,7 @@ const Reservation = ({work, modal}) => {
     }
    
     
-    const response = await fetch('/reservation/' + work._id, {
+    const response = await fetch('https://restaurant-8p5p.onrender.com/reservation/' + work._id, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${user.token}`

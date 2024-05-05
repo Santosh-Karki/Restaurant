@@ -5,8 +5,7 @@ import { useReservationContext } from '../hooks/useReservationContext.jsx'
 import { useAuthContext } from '../hooks/useAuthContext'
 import Navbar from "./Navbar.jsx";
 import Footer from './Footer.jsx';
-import Reserve from '../Pages/Reserve';
-import Reservation from "./Reservation.jsx";
+
 
 
 
@@ -41,7 +40,7 @@ const ReservationForm = () => {
 
     const model = {name, email, people, date}
     
-    const response = await fetch('/reservation', {
+    const response = await fetch('https://restaurant-8p5p.onrender.com/reservation', {
       method: 'POST',
       body: JSON.stringify(model),
       headers: {

@@ -1,14 +1,11 @@
 
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useAuthContext } from './hooks/useAuthContext'
-import Navbar from "./components/Navbar";
 import Menu from "./components/Menu";
-import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Signup from './Pages/Signup';
 import HomePage from './Pages/HomePage'
 import Login from './Pages/Login';
-import Reservation from './components/Reservation';
 import ReservationForm from './components/ReservationForm';
 import Reserve from './Pages/Reserve';
 
