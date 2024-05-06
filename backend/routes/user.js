@@ -6,9 +6,9 @@ const { loginUser, signupUser } = require('../controllers/userController')
 const router = express.Router()
 
 // login route
-router.post('/login', loginUser)
+router.post(' https://restaurant-o7bo.onrender.com/login', loginUser)
 
 // signup route
-router.post('/signup', signupUser)
+router.post('https://restaurant-o7bo.onrender.com/signup', signupUser)
 
 module.exports = router

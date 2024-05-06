@@ -12,20 +12,20 @@ const requireAuth = require('../middleware/requireAuth')
 router.use(requireAuth)
 
 //get route
-router.get('/', getReservation)
+router.get('https://restaurant-o7bo.onrender.com/', getReservation)
 
 //getbyid route
-router.get('/:id', getReservationId)
+router.get('https://restaurant-o7bo.onrender.com/:id', getReservationId)
 
 // post route
-router.post('/', postReservation)
+router.post('https://restaurant-o7bo.onrender.com/', postReservation)
 
 // delete route
-router.delete('/:id', deleteReservation)
+router.delete('https://restaurant-o7bo.onrender.com/:id', deleteReservation)
 
 
 // update route
-router.patch('/:id', updateReservation)
+router.patch('https://restaurant-o7bo.onrender.com/:id', updateReservation)
 
 module.exports = router
 
