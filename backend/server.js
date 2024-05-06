@@ -7,6 +7,9 @@ const mongoose = require('mongoose')
 
 
 
+
+
+
 app.use(express.json())
 
 
@@ -29,6 +32,8 @@ mongoose.connect(process.env.MONGO_URL)
 
 app.use('/reservation', Reservation) 
 app.use('/user', userRoutes) 
+
+
 
 
 

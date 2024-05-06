@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import booking from "../assets/img/booking.jpg";
 import "react-datepicker/dist/react-datepicker.css";
 import { useReservationContext } from '../hooks/useReservationContext.jsx'
-import { useAuthContext } from '../hooks/useAuthContext'
+import { useAuthContext } from '../hooks/useAuthContext.jsx'
 import Navbar from "./Navbar.jsx";
 import Footer from './Footer.jsx';
 
