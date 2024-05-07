@@ -16,7 +16,7 @@ const Reserve = ({modal}) => {
 
   useEffect(() => {
     const fetchReservation = async () => {
-      const response = await fetch('https://restaurant-o7bo.onrender.com/reservation/', {
+      const response = await fetch('/reservation/', {
       headers: {
         'Authorization': `Bearer ${user.token}`
       }

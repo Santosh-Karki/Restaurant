@@ -28,11 +28,9 @@ mongoose.connect(process.env.MONGO_URL)
 
 
 
-app.get('/',(req,res)=>{
-    res.json("hellow");
-})
 
-// app.use('/reservation', Reservation) 
+
+app.use('/reservation', Reservation) 
 app.use('/user', userRoutes) 
 
 
