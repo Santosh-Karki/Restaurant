@@ -6,8 +6,9 @@ export default defineConfig({
   plugins: [react()],
   server:{
     proxy: {
-      '/reservation': 'https://restaurant-lnv2.onrender.com',
-      '/user': 'https://restaurant-lnv2.onrender.com'
+      '/reservation': 'https://restaurant-lnv2.onrender.com/',
+      '/user': 'https://restaurant-lnv2.onrender.com/'
     }
   }
 })
+
