@@ -1,5 +1,4 @@
 {
-  "proxy":"https://restaurant-lnv2.onrender.com/",
   "name": "frontend",
   "private": true,
   "version": "0.1.0",
